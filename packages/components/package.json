@@ -1,0 +1,20 @@
+{
+  "name": "@org/components",
+  "version": "1.0.0",
+  "author": "Attila Kling",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "scripts": {
+    "lint": "scripty"
+  },
+  "scripty": {
+    "path": "../../scripts/packages"
+  },
+  "dependencies": {
+    "react": "17.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
